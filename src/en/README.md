@@ -3,8 +3,8 @@ home: true
 icon: home
 title: home
 heroImage: /logo.svg
-heroText: 全宇宙小末花栽培基地
-tagline: 五班班级文化建设官方独家制定IP(没来得及改文字)
+heroText: Xiaomo Flower BASE
+tagline: The Official Character of Class FIVE
 actions:
   - text: Begin 💡
     link: /en/xm/
@@ -14,20 +14,15 @@ actions:
     link: /en/behind/
 
 features:
-  - title: Markdown 增强
-    icon: markdown
-    details: 新增文字对齐、上下角标、脚注、标记、任务列表、数学公式、流程图、图表与幻灯片支持
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/
+  - title: Extremely High Level
+    details: Made by a Small Sunspot(as known as 小黑子).
 
-  - title: 幻灯片页面
-    icon: slides
-    details: 添加幻灯片页面以显示你喜欢的内容
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/layout/slides.html
+  - title: Powerful Content
+    details: 'Written' By @wqx(大哥).
 
-  - title: 布局增强
-    icon: layout
-    details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/layout/
+  - title: Lots of Rubbish
+    details: You see , it's right here!
+
 copyright: false
 footer: MIT Licensed | Copyright © 2022--present wemsx
 ---

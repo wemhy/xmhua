@@ -1,7 +1,7 @@
 ---
 home: true
 icon: home
-title: home
+title: 主页
 heroImage: /logo.svg
 heroText: 全宇宙小末花栽培基地
 tagline: 五班班级文化建设官方独家指定IP

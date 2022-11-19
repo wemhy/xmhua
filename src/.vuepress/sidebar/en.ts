@@ -9,6 +9,12 @@ export const enSidebar = sidebar({
       children: "structure",
     },
     {
+      text: "Else",
+      icon: "note",
+      prefix: "related/",
+      children: "structure",
+    },
+    {
       text: "Behind...",
       icon: "note",
       prefix: "behind/",
