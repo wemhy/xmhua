@@ -15,10 +15,10 @@ actions:
 
 features:
   - title: Extremely High Level
-    details: Made by a Small Sunspot(as known as 小黑子).
+    details: Made by a Small Sunspot(as known as 小黑子)
 
   - title: Powerful Content
-    details: 'Written' By @wqx(大哥).
+    details: 'Written' By \@wqx(大哥)
 
   - title: Lots of Rubbish
     details: You see , it's right here!
