@@ -3,24 +3,44 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://xmhua.ml",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "wemsx",
+    url: "https://xmhua.ml",
   },
 
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "luo-haoyuan/xm",
 
-  docsDir: "demo/theme-docs/src",
+  docsDir: "src",
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Author","Date"],
 
   locales: {
+    /**
+     * Chinese locale config
+     */
+     "/zh/": {
+      // navbar
+      navbar: zhNavbar,
+
+      // sidebar
+      sidebar: zhSidebar,
+
+      //footer: "默认页脚",
+
+      displayFooter: false,
+
+      // page meta
+      metaLocales: {
+        editLink: "在 GitHub 上编辑此页",
+      },
+    },
+    
     "/": {
       // navbar
       navbar: enNavbar,
@@ -28,40 +48,20 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      //footer: "Default footer",
 
-      displayFooter: true,
+      displayFooter: false,
 
       metaLocales: {
         editLink: "Edit this page on GitHub",
-      },
-    },
-
-    /**
-     * Chinese locale config
-     */
-    "/zh/": {
-      // navbar
-      navbar: zhNavbar,
-
-      // sidebar
-      sidebar: zhSidebar,
-
-      footer: "默认页脚",
-
-      displayFooter: true,
-
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
       },
     },
   },
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
+      //"/demo/encrypt.html": ["1234"],
+      //"/zh/demo/encrypt.html": ["1234"],
     },
   },
 

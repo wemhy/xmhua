@@ -5,7 +5,6 @@ export default defineUserConfig({
   base: "/",
 
   head: [
-    // 设置 favor.ico，.vuepress/public 下
         [
           'script', {src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'}
         ]
