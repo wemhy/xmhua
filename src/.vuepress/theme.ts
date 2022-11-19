@@ -7,7 +7,7 @@ export default hopeTheme({
 
   author: {
     name: "wemsx",
-    url: "https://xmhua.ml",
+    url: "https://wemsx.top",
   },
 
   iconAssets: "iconfont",
@@ -24,7 +24,7 @@ export default hopeTheme({
     /**
      * Chinese locale config
      */
-     "/zh/": {
+     "/": {
       // navbar
       navbar: zhNavbar,
 
@@ -41,7 +41,7 @@ export default hopeTheme({
       },
     },
     
-    "/": {
+    "/en/": {
       // navbar
       navbar: enNavbar,
 

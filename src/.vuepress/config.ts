@@ -10,15 +10,15 @@ export default defineUserConfig({
         ]
   ],
   locales: {
-    "/zh/": {
-      lang: "zh-CN",
-      title: "文档演示",
-      description: "vuepress-theme-hope 的文档演示",
-    },
     "/": {
+      lang: "zh-CN",
+      title: "你好，小末花",
+      description: "小末花的官方站点",
+    },
+    "/en/": {
       lang: "en-US",
-      title: "Docs Demo",
-      description: "A docs demo for vuepress-theme-hope",
+      title: "Hello,XiaoMo",
+      description: "The official site of XiaoMo Flower",
     },
   },
 
