@@ -89,7 +89,7 @@ export default hopeTheme({
        * Using Waline
        */
       provider: "Waline",
-      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      serverURL: "https://comment.xmhua.ml",
     },
 
     // Disable features you don’t want here
