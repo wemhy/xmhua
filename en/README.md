@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: home
-heroImage: /logo.svg
+heroImage: https://gcore.jsdelivr.net/gh/luo-haoyuan/xm@image/logo/logot.svg
 heroText: Xiaomo Flower BASE
 tagline: The Official Character of Class FIVE
 actions:
