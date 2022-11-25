@@ -8,12 +8,30 @@ public_folder: "/upload"
 # This line should *not* be indented
 publish_mode: editorial_workflow
 
+locale: 'zh_Hans'
+
 collections:
-  - name: "Post" # Used in routes, e.g., /admin/collections/blog
-    label: "Post" # Used in the UI
-    folder: "src/zh" # The path to the folder where the documents are stored
+  - name: "xmhua" # Used in routes, e.g., /admin/collections/blog
+    label: "小末花" # Used in the UI
+    folder: "src/xm" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "related" # Used in routes, e.g., /admin/collections/blog
+    label: "相关内容" # Used in the UI
+    folder: "src/related" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "behind"
+    label: "幕后故事"
+    folder: "src/behind"
+    create: false
+    slug: "{{slug}}"
+    fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
