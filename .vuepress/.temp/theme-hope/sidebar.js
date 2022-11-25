@@ -1,0 +1,1 @@
+export const sidebarData = {"/en/xm/":["README.md","description.md","method.md","process.md","value.md"],"/en/related/":["README.md"],"/en/behind/":["README.md"],"/xm/":["README.md","description.md","method.md","process.md","value.md"],"/related/":["README.md"],"/behind/":["README.md"]};

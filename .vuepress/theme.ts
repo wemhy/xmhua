@@ -83,6 +83,12 @@ export default hopeTheme({
        */
       provider: "Waline",
       serverURL: "https://comment.xmhua.ml",
+      requiredMeta: ['nick'],
+      emoji: false,
+      imageUploader: false,
+      copyright: false,
+      reaction: false,
+      search: false,
     },
 
     // Disable features you don’t want here
