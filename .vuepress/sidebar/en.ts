@@ -15,7 +15,7 @@ export const enSidebar = sidebar({
       children: "structure",
     },
     {
-      text: "Behind...",
+      text: "About...",
       icon: "note",
       prefix: "behind/",
       children: "structure",

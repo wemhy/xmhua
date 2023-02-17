@@ -15,7 +15,7 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
-      text: "幕后故事",
+      text: "站点来历",
       icon: "note",
       prefix: "behind/",
       children: "structure",

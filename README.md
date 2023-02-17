@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 主页
-heroImage: https://gcore.jsdelivr.net/gh/luo-haoyuan/xm@image/logo/logot.svg
+heroImage: https://gcore.jsdelivr.net/gh/wemhy/xm@1.0.0/logo/logot.svg
 heroText: 全宇宙小末花栽培基地
 tagline: 五班班级文化建设官方独家指定IP
 actions:
@@ -10,7 +10,7 @@ actions:
     link: /xm/
     type: primary
 
-  - text: 幕后故事
+  - text: 站点来历
     link: /behind/
 
 features:
@@ -23,6 +23,16 @@ features:
   - title: 废话贼多
     details: 你看我这不就来了吗
 
+  - title: 开源！
+    details: 采用开源项目开发，本项目也基于GPL-3.0开源。
+
+  - title: 开放
+    details: 有评论区，甚至还能切成英文(还没做翻译(樂))
+
+  - title: 便捷
+    details: 已支持使用Github Action及Netlify在线修改文章内容。
+    
+
 copyright: false
-footer: MIT Licensed | Copyright © 2022--present wemsx
+footer: GPL-3.0 Licensed | Copyright © 2022～2023 wemsx
 ---
