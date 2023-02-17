@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: home
-heroImage: https://gcore.jsdelivr.net/gh/luo-haoyuan/xm@image/logo/logot.svg
+heroImage: https://gcore.jsdelivr.net/gh/wemhy/xm@1.0.0/logo/logot.svg
 heroText: Xiaomo Flower BASE
 tagline: The Official Character of Class FIVE
 actions:
@@ -24,5 +24,5 @@ features:
     details: You see , it's right here!
 
 copyright: false
-footer: MIT Licensed | Copyright © 2022--present wemsx
+footer: GPL-3.0 Licensed | Copyright © 2022～2023 wemsx
 ---

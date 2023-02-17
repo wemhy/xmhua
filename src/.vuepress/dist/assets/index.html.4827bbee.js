@@ -1,1 +1,0 @@
-import{_ as t}from"./_plugin-vue_export-helper.cdc0426e.js";import{o,c as n,a as e}from"./app.4475d464.js";const s={},_=e("p",null,"2022-11-12",-1),c=e("p",null,"开发者(wemsx)在大哥的指示下进行了艰苦卓绝的开发，以加速50%掉发的代价完成本站初步开发",-1),r=[_,c];function l(a,i){return o(),n("div",null,r)}const f=t(s,[["render",l],["__file","index.html.vue"]]);export{f as default};

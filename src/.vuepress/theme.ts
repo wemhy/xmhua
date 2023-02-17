@@ -12,9 +12,9 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "https://gcore.jsdelivr.net/gh/luo-haoyuan/xm@image/logo/logot.svg",
+  logo: "https://gcore.jsdelivr.net/gh/wemhy/xm@1.0.0/logo/logot.svg",
 
-  repo: "luo-haoyuan/xm",
+  repo: "wemhy/xm",
 
   docsDir: "src",
 
@@ -136,39 +136,39 @@ export default hopeTheme({
     },
 
     pwa: {
-      favicon: "https://gcore.jsdelivr.net/gh/luo-haoyuan/xm@image/other/favicon.ico",
+      favicon: "https://gcore.jsdelivr.net/gh/wemhy/xm@1.0.0/other/favicon.ico",
       cacheHTML: true,
       cachePic: true,
       appendBase: true,
       apple: {
-        icon: "https://gcore.jsdelivr.net/gh/luo-haoyuan/xm@1.0.0/pwa/apple-icon-152.png",
+        icon: "https://gcore.jsdelivr.net/gh/wemhy/xm@1.0.0/pwa/apple-icon-152.png",
         statusBarColor: "black",
       },
       msTile: {
-        image: "https://gcore.jsdelivr.net/gh/luo-haoyuan/xm@1.0.0/pwa/ms-icon-144.png",
+        image: "https://gcore.jsdelivr.net/gh/wemhy/xm@1.0.0/pwa/ms-icon-144.png",
         color: "#ffffff",
       },
       manifest: {
         icons: [
           {
-            src: "https://gcore.jsdelivr.net/gh/luo-haoyuan/xm@1.0.0/pwa/chrome-mask-512.png",
+            src: "https://gcore.jsdelivr.net/gh/wemhy/xm@1.0.0/pwa/chrome-mask-512.png",
             sizes: "512x512",
             purpose: "maskable",
             type: "image/png",
           },
           {
-            src: "https://gcore.jsdelivr.net/gh/luo-haoyuan/xm@1.0.0/pwa/chrome-mask-192.png",
+            src: "https://gcore.jsdelivr.net/gh/wemhy/xm@1.0.0/pwa/chrome-mask-192.png",
             sizes: "192x192",
             purpose: "maskable",
             type: "image/png",
           },
           {
-            src: "https://gcore.jsdelivr.net/gh/luo-haoyuan/xm@1.0.0/pwa/chrome-512.png",
+            src: "https://gcore.jsdelivr.net/gh/wemhy/xm@1.0.0/pwa/chrome-512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "https://gcore.jsdelivr.net/gh/luo-haoyuan/xm@1.0.0/pwa/chrome-192.png",
+            src: "https://gcore.jsdelivr.net/gh/wemhy/xm@1.0.0/pwa/chrome-192.png",
             sizes: "192x192",
             type: "image/png",
           },
